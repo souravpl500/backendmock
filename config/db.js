@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 const connection = mongoose.connect(
-  "mongodb+srv://souravpl500:Souravpl500@cluster0.hlt1sxm.mongodb.net/games?retryWrites=true&w=majority"
+  "mongodb+srv://zeeshani26:12345@cluster0.mfqk545.mongodb.net/?retryWrites=true&w=majority"
 );
 
 module.exports = { connection };
